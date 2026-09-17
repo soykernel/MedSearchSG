@@ -94,6 +94,20 @@ body {
     padding: 3rem 1rem 0 1rem;
 }
 
+/*Link container*/
+.carousel-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-slide a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
 /* Main Container 3:4*/
 .instagram-carousel {
     position: relative;
