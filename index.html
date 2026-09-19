@@ -41,8 +41,18 @@
 			<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/63xUtWhWVdDTV73QSB6qyT?utm_source=generator&si=bc7497c49e66482f" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             
 			<a href="#" class="btn-main">Join Us</a>
-			<!--carousel-->
-			<div class="instagram-carousel">
+
+            <!--navibuttons-->
+            <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous Slide">❮</button>
+            <button class="nav-btn next-btn" id="nextBtn" aria-label="Next Slide">❯</button>
+
+            <!--dots-->
+            <div class="carousel-dots" id="carouselDots"></div>
+        </div>
+        </div>
+    </main>
+<!--carousel-->
+			<section class="instagram-carousel">
             <div class="carousel-track" id="carouselTrack">
                 <div class="carousel-slide">
 					<a href="https://www.instagram.com/medsearch.sg/p/DUx-JIyjzbS/" target="_blank" rel="noopener noreferrer">
@@ -65,17 +75,7 @@
 					</a>
 				</div>
             </div>
-
-            <!--navibuttons-->
-            <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous Slide">❮</button>
-            <button class="nav-btn next-btn" id="nextBtn" aria-label="Next Slide">❯</button>
-
-            <!--dots-->
-            <div class="carousel-dots" id="carouselDots"></div>
-        </div>
-        </div>
-    </main>
-
+			</section>
     <script src="script.js"></script>
 </body>
 </html>
