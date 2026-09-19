@@ -91,9 +91,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-	width: 100%;
-	margin: 0 auto
+    width: 100%;
+    margin: 0 auto;     
     padding: 2rem 1rem;
+}
 }
 
 /* Main Container 3:4*/
